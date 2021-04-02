@@ -1,5 +1,6 @@
 namespace Core.Entities.OrderAggregate
 {
+
     public class Address
     {
         public Address()
@@ -15,6 +16,8 @@ namespace Core.Entities.OrderAggregate
             State = state;
             ZipCode = zipCode;
         }
+        
+
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
